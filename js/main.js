@@ -145,7 +145,7 @@ $(function () {
     styleSliderIndex = (styleSliderIndex + 1) % styleSliderCount; // 순환
 
     // 배경 변경
-    const styleBgImage = `url("../img/main/style2-${styleSliderIndex + 1}.png")`;
+    const styleBgImage = `url("/project_HALO/img/main/style2-${styleSliderIndex + 1}.png")`;
     $('#style').css('background-image', styleBgImage);
 
     // active 클래스 갱신
@@ -188,7 +188,7 @@ $(function () {
     // }
 
     // 새로운 배경 이미지 URL
-    let styleMBgImage = `url("../img/main/style2-${styleMBgImageIndex}.png")`;
+    let styleMBgImage = `url("/project_HALO/img/main/style2-${styleMBgImageIndex}.png")`;
 
     // 배경 이미지 업데이트
     $('#style_slider2 ul li').eq(10 - styleSliderMIndex - 1).css('background-image', styleMBgImage);
