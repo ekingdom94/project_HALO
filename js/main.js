@@ -127,7 +127,7 @@ $(function () {
     styleSliderIndex = (styleSliderIndex - 1 + styleSliderCount) % styleSliderCount; // 순환
 
     // 배경 변경
-    const styleBgImage = `url("/img/main/style2-${styleSliderIndex + 1}.png")`;
+    const styleBgImage = `url("../img/main/style2-${styleSliderIndex + 1}.png")`;
     $('#style').css('background-image', styleBgImage);
 
     // active 클래스 갱신
